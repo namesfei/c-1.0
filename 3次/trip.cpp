@@ -2,18 +2,6 @@
 #include<math.h>
 Ship::Ship()
 {
-	//m_sta_shipdata.name=new char[30];
-	//m_sta_shipdata.name= "";
-	//for (int i = 0; i < 4; i++) {
-	//	m_sta_shipdata.number[i] = '0';
-	//}
-	//for (int i = 0; i < 9; i++) {
-	//	m_sta_shipdata.MMSI[i] = '0';
-	//}
-	//m_sta_shipdata.length=0.0;
-	//m_sta_shipdata.width = 0.0;
-	//m_sta_shipdata.draft = 0.0;
-	//m_sta_shipdata.displacement = 0.0;
 	m_sta_shipdata = new sta_shipdata;
 	speed = 0.0;
 	course = 0.0;

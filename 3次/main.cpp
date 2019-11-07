@@ -1,6 +1,7 @@
 #include"trip.h"
 int main()
 {
+	//≤‚ ‘
 	sta_shipdata mship = { {'1','2','3','4','5','6','7','8','9'}, "—Ùπ‚",{'8','8','8','8'},90,18,5,2000 };
 	Ship myship(mship);
 	myship.set_position(123, 35);
