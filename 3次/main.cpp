@@ -11,9 +11,7 @@ int main()
 	myship.set_ship_profile_byscale(1.0/10);
 	myship.showmessage();
 	cout << myship.ca_fangwei(123, 36) << " " << myship.ca_juli(123, 36) << endl;
-	sta_shipdata* a;
-	//a= myship.outmessage;
-	//cout << myship.outmessage()->name;
+
 
 	return 0;
 }
