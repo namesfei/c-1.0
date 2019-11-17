@@ -16,6 +16,15 @@ struct zuobiao
 	double x;
 	double y;
 };
+struct dy_shipdata
+{
+	zuobiao ship_profile[5];
+	double speed;	// 千米/小时
+	double course;	// 正北为0°
+	double latitude; //北正南负
+	double longitude;//东正西负
+};
+
 class Ship 
 {
 public:
@@ -30,12 +39,15 @@ public:
 	double ca_fangwei(double lati,double longi);
 	double ca_juli(double lati, double longi);
 	void showmessage();
+	sta_shipdata* outsm();
+	dy_shipdata* outdm();
 
 private:
-	sta_shipdata* m_sta_shipdata;
-	zuobiao ship_profile[5];
-	double speed;	// 千米/小时
-	double course;	// 正北为0°
-	double latitude; //北正南负
-	double longitude;//东正西负
+	sta_shipdata* pm_sta_shipdata;
+	dy_shipdata* pm_dy_shipdata;
+	//zuobiao ship_profile[5];
+	//double speed;	// 千米/小时
+	//double course;	// 正北为0°
+	//double latitude; //北正南负
+	//double longitude;//东正西负
 };
