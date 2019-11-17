@@ -1,4 +1,4 @@
-#include"trip.h"
+#include"ship.h"
 #include<math.h>
 Ship::Ship()
 {

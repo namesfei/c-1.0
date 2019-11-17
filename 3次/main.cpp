@@ -1,4 +1,4 @@
-#include"trip.h"
+#include"ship.h"
 int main()
 {
 	//≤‚ ‘ 
